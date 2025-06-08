@@ -1,6 +1,6 @@
 import './App.css';
 import { FaGithub, FaInstagram, FaLinkedin,FaMapMarkerAlt , FaEnvelope, FaTwitter, FaPhone, FaExternalLinkAlt } from 'react-icons/fa';
-import photo from './assets/deepak1.jpg';
+import photo from './assets/photo.jpg';
 
 function App() {
 
@@ -42,8 +42,10 @@ function App() {
       <img 
         src={photo} 
         alt="Deepak" 
-        className="rounded-full w-36 h-36 sm:w-40 sm:h-40 object-cover"
+        className="rounded-full w-36 h-36 sm:w-40 sm:h-40 object-cover shadow-[0_0_25px_#ffffff]"
       />
+
+
       <p className="text-2xl sm:text-3xl font-semibold text-center mt-6 sm:mt-8">DEEPAK PRADHAN</p>
       <p className="text-xl sm:text-2xl font-light text-center mt-3 sm:mt-4">Electrical & Electronics Engineering</p>
       <p className="text-lg sm:text-xl font-light text-center mt-1 sm:mt-2">Birla Institute of Technology, Mesra (2022-2026)</p>
