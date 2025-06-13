@@ -6,9 +6,9 @@ function App() {
 
   const projects = [
     {
-      title: 'Blackline',
-      desc: 'A real-time CLI based chat application with socket.io and Node.js supporting multiple chat rooms.',
-      link: 'https://github.com/deepakpradhan10242/Blackline'
+      title: 'Terminal-Chat-App',
+      desc: 'A real-time CLI based group chat application with socket.io and Node.js supporting multiple chat rooms.',
+      link: 'https://github.com/deepakpradhan10242/Terminal-Chat-App'
     },
     {
       title: 'Finstreet 2025',
